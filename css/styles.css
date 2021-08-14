@@ -30,9 +30,7 @@ ul {
 ul {
   list-style: none;
 }
-/* li {
-  display: inline-block;
-} */
+
 
 .image {
   display: flex;
@@ -74,16 +72,14 @@ a {
   font-size: 14px;
 } */
 
-/* header */
+/* = = == = = == = == == header= = = == = == = = == = = */
 .container {
   width: 1200px;
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* .container.greeting {
-  background-color: var(--head-foot-bgcolor);
-} */
+
 .container.headstyle {
   display: flex;
   justify-content: space-between;
@@ -108,7 +104,7 @@ a {
   padding-bottom: 32px;
 }
 
-/* логотип */
+/* = = = = == = = = == == логотип = = = == = == = = = = =*/
 .logo {
   color: #000000;
 
@@ -132,7 +128,7 @@ a {
 .logostyle:focus {
   color: #000000;
 }
-/* навигация */
+/* = = = = == = == = = = == = навигация= = = == = = ==  */
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -148,7 +144,7 @@ a {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/* контакты */
+/* = = == = = == = = == контакты = = = = = = == = = = =*/
 .contacts {
   display: flex;
   margin-left: auto;
@@ -183,15 +179,14 @@ a {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-/* .contacts .contacts-item:hover,
-.contacts .contacts-item:focus {
-  fill: var(--accent-color); */
-  
-/* Приветствие */
+
+  /* = == = = == == = == = = = == = = == = = == = = == = = == = = == = = */
+/* == = == =  = == = = == = = == Приветствие  == == == = == == = = */
 .greeting {
  background-color: var(--head-foot-bgcolor);
 background-image:
-linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+linear-gradient(to left, rgba(47, 48, 58, 0.4),
+ rgba(47, 48, 58, 0.4)), 
 url('../images/overlay-background.jpg');
  
   text-align: center;
@@ -235,7 +230,7 @@ url('../images/overlay-background.jpg');
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-/* Список преимуществ */
+/* = = == = = = == = = =Список преимуществ = = = = == = == */
 .features {
   padding-bottom: 47px;
   padding-top: 95px;
@@ -288,7 +283,7 @@ background-color: #f5f4fA;
   margin-left: 30px;
 }
 
-/* Команда молодости нашей */
+/* = == == = = =Команда молодости нашей = = == = = == = = =*/
 .team-list {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -378,14 +373,8 @@ justify-content: center;
   fill: var(--btn-prime-color);
 }
 
-/* .list-ident {
-  display: flex;
-  flex-direction: column;
-  margin: 9px 0;
-} */
-
-
-/*                     наши клиенты                         */
+/* --- -- --  -- -- - - -- - -- - - - -- - - -- - - - - */
+/*-- - -- -- - -- - наши клиенты- -- -- -- - -- - -- */
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -444,7 +433,7 @@ text-align: center;
   height: 60px;
 }
 
-/*                                      Футер             */
+/* - -- -- - ---- - - -- - Футер - - -- -- -- -- */
 
 .basement {
   display: flex;
@@ -543,8 +532,8 @@ justify-content: center;
   background-color: var(--accent-color);
   
 }
-/* Страница портфолио */
-/* контент main */
+/* - -- - - -- - -- -- - -Страница портфолио - - -- -- -- - -*/
+/*- -- - -- - --  контент main - - ---- -- -- - -- - -- -- -- */
 .very-good {
   padding: 94px 0;
 }
