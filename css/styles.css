@@ -31,7 +31,6 @@ ul {
   list-style: none;
 }
 
-
 .image {
   display: flex;
 }
@@ -159,7 +158,8 @@ a {
 
   padding-top: 32px;
   padding-bottom: 32px;
-  
+  display: flex;
+  align-items: center;
 }
 .contacts-item + .contacts-item {
   margin-left: 50px;
@@ -168,8 +168,6 @@ a {
   /* display: flex;
   align-items: center; */
   fill: var(--primary-text-color);
-
- 
 }
 .icon-decoration {
   margin-right: 10px;
@@ -180,15 +178,13 @@ a {
   fill: var(--accent-color);
 }
 
-  /* = == = = == == = == = = = == = = == = = == = = == = = == = = == = = */
+/* = == = = == == = == = = = == = = == = = == = = == = = == = = == = = */
 /* == = == =  = == = = == = = == Приветствие  == == == = == == = = */
 .greeting {
- background-color: var(--head-foot-bgcolor);
-background-image:
-linear-gradient(to left, rgba(47, 48, 58, 0.4),
- rgba(47, 48, 58, 0.4)), 
-url('../images/overlay-background.jpg');
- 
+  background-color: var(--head-foot-bgcolor);
+  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/overlay-background.jpg');
+
   text-align: center;
   padding: 200px 15px;
 }
@@ -198,10 +194,8 @@ url('../images/overlay-background.jpg');
   text-align: center;
 }
 .greeting-title {
-  
   color: var(--greeting-words-color);
 
-  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -253,13 +247,13 @@ url('../images/overlay-background.jpg');
   margin-left: 30px;
 }
 .features-icons {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 120px;
-margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
 
-background-color: #f5f4fA;
+  background-color: #f5f4fa;
 }
 /* чем заняты */
 .work {
@@ -287,7 +281,7 @@ background-color: #f5f4fA;
 .team-list {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .profile .name {
@@ -303,13 +297,11 @@ background-color: #f5f4fA;
 }
 .profile .profile-description {
   margin-top: 30px;
-  
 }
 .team {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .team-title {
   color: var(--title-text-color);
@@ -322,30 +314,28 @@ background-color: #f5f4fA;
 .profile {
   display: flex;
   margin-top: 50px;
-  
 }
 .team-item + .team-item {
   margin-left: 30px;
 }
 .team-item {
-background-color: #ffffff;
+  background-color: #ffffff;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
- border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .profession {
   margin-top: 10px;
 }
 .social-network {
-  
   margin-top: 16px;
   margin-bottom: 30px;
-
 }
 .icon-link {
   display: inline-flex;
@@ -353,23 +343,25 @@ background-color: #ffffff;
   height: 44px;
   fill: var(--icons-color);
 
-border: 1px solid transparent;
-border-radius: 50%;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-overflow: hidden;
-align-items: center;
-justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
 }
 .icon-link + .icon-link {
   margin-left: 10px;
 }
-.icon-link:hover, .icon-link:focus {
+.icon-link:hover,
+.icon-link:focus {
   background-color: var(--accent-color);
   fill: var(--btn-prime-color);
 }
 
-.social-link-icon:hover, .social-link-icon:focus {
+.social-link-icon:hover,
+.social-link-icon:focus {
   fill: var(--btn-prime-color);
 }
 
@@ -390,12 +382,11 @@ justify-content: center;
 .clients-title {
   color: var(--title-text-color);
 
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-/* letter-spacing: 0.03em; */
- 
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  /* letter-spacing: 0.03em; */
 }
 .clients-list {
   display: flex;
@@ -406,7 +397,6 @@ text-align: center;
   width: 170px;
   height: 92px;
   display: flex;
-  
 }
 .clients-item + .clients-item {
   margin-left: 30px;
@@ -420,7 +410,6 @@ text-align: center;
   fill: var(--icons-color);
   border: 1px solid var(--icons-color);
   border-radius: 4px;
-  
 }
 .clients-link:focus,
 .clients-link:hover {
@@ -428,7 +417,6 @@ text-align: center;
   border: 1px solid var(--accent-color);
 }
 .clients-link-icon {
-  
   width: 106px;
   height: 60px;
 }
@@ -438,7 +426,6 @@ text-align: center;
 .basement {
   display: flex;
   align-items: center;
-  
 }
 .logo-address {
   display: flex;
@@ -457,7 +444,6 @@ text-align: center;
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
-  
 }
 .footstyle {
   color: #2196f3;
@@ -472,7 +458,6 @@ text-align: center;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  
 }
 .ident {
   margin-top: 9px;
@@ -497,11 +482,11 @@ text-align: center;
 }
 .social-link-head {
   color: #ffffff;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 .icon-link-footer {
   display: inline-flex;
@@ -509,15 +494,15 @@ text-transform: uppercase;
   height: 44px;
 
   fill: var(--footer-icons);
-background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 
-border: 1px solid transparent;
-border-radius: 50%;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-overflow: hidden;
-align-items: center;
-justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
 }
 .footer-social-list {
   display: flex;
@@ -530,7 +515,6 @@ justify-content: center;
 .icon-link-footer:hover,
 .icon-link-footer:focus {
   background-color: var(--accent-color);
-  
 }
 /* - -- - - -- - -- -- - -Страница портфолио - - -- -- -- - -*/
 /*- -- - -- - --  контент main - - ---- -- -- - -- - -- -- -- */
@@ -579,22 +563,20 @@ justify-content: center;
   line-height: 1.87;
 }
 
-
 .filter {
   display: flex;
   justify-content: center;
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .item-btn + .item-btn {
   margin-left: 8px;
 }
 .btn {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border: 1px transparent;
- 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-  0px 1px 2px rgba(0, 0, 0, 0.08), 
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 .work-list {
@@ -604,7 +586,6 @@ justify-content: center;
 .list-item {
   flex-basis: calc((100% - 90px) / 3);
   /* border: 1px solid #EEEEEE; */
-
 }
 .list-item:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -614,9 +595,8 @@ justify-content: center;
 }
 .list-item:focus,
 .list-item:hover {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-0px 4px 4px rgba(0, 0, 0, 0.06), 
-1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .item-title {
   margin-top: 20px;
@@ -625,9 +605,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   margin-top: 4px;
   margin-bottom: 20px;
 }
-
-
-
 
 /*--- -- - -- --- -- - скрываем заголовки -- -- -- -*/
 .hidden-title {
