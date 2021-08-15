@@ -32,7 +32,7 @@ ul {
 }
 
 .image {
-  display: flex;
+  display: block;
 }
 
 :root {
@@ -72,6 +72,9 @@ a {
 } */
 
 /* = = == = = == = == == header= = = == = == = = == = = */
+.head {
+  border-bottom: 1px solid #ececec;
+}
 .container {
   width: 1200px;
   margin: 0px auto;
@@ -186,7 +189,7 @@ a {
     url('../images/overlay-background.jpg');
 
   text-align: center;
-  padding: 200px 15px;
+  padding: 200px 0;
 }
 .greet-box.container {
   color: var(--btn-prime-color);
@@ -238,10 +241,11 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-bottom: 10px;
 }
 .features-list {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
 }
 .features-item + .features-item {
   margin-left: 30px;
@@ -273,6 +277,9 @@ a {
   display: flex;
   margin-top: 50px;
 }
+.examples-item {
+  width: 370px;
+}
 .examples-item + .examples-item {
   margin-left: 30px;
 }
@@ -296,13 +303,15 @@ a {
   line-height: 1.19;
 }
 .profile .profile-description {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
-.team {
+/* .team {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 .team-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -321,11 +330,8 @@ a {
 .team-item {
   background-color: #ffffff;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 270px;
   text-align: center;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -334,7 +340,6 @@ a {
   margin-top: 10px;
 }
 .social-network {
-  margin-top: 16px;
   margin-bottom: 30px;
 }
 .icon-link {
@@ -461,6 +466,9 @@ a {
 }
 .ident {
   margin-top: 9px;
+}
+.address-text.ident {
+  margin-top: 20px;
 }
 .footer-section .foot-link {
   color: rgba(255, 255, 255, 0.6);
