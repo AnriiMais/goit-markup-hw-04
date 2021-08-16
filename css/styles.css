@@ -211,7 +211,7 @@ a {
 }
 .primary.button {
   color: var(--btn-prime-color);
-  background-color: transparent;
+  background-color: var(--accent-color);
 
   font-family: inherit;
   font-weight: 700;
@@ -262,6 +262,9 @@ a {
   margin-bottom: 30px;
 
   background-color: #f5f4fa;
+}
+.icon-decoration {
+  margin: 0;
 }
 /* чем заняты */
 .work {
@@ -344,6 +347,8 @@ a {
   margin-top: 10px;
 }
 .social-network {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .icon-link {
@@ -354,13 +359,13 @@ a {
 
   border: 1px solid transparent;
   border-radius: 50%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 
   overflow: hidden;
   align-items: center;
   justify-content: center;
 }
-.icon-link + .icon-link {
+.icon-link-item + .icon-link-item {
   margin-left: 10px;
 }
 .icon-link:hover,
@@ -434,17 +439,20 @@ a {
 
 .basement {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .logo-address {
   display: flex;
   flex-direction: column;
 }
+/* .container.basement {
+
+} */
 
 .footer-section {
   background-color: var(--head-foot-bgcolor);
-  /* padding-top: 60px;
-  padding-bottom: 60px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .foot-logo {
   color: #ffffff;
@@ -485,6 +493,8 @@ a {
 
 .footer-section .ident .foot-link {
   margin-top: 9px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-section .foot-link:hover,
 .footer-section .foot-link:focus {
@@ -492,8 +502,8 @@ a {
 }
 .social-link-list {
   margin-left: 70px;
-  margin-bottom: 100px;
-  margin-top: 72px;
+  /* margin-bottom: 100px;
+  margin-top: 72px; */
 }
 .social-link-head {
   color: #ffffff;
