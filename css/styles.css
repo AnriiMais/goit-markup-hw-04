@@ -237,6 +237,7 @@ a {
   padding-top: 95px;
 }
 .features-item {
+  text-transform: uppercase;
   width: 270px;
 }
 .features-title {
