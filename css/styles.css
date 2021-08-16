@@ -211,7 +211,7 @@ a {
 }
 .primary.button {
   color: var(--btn-prime-color);
-  background-color: var(--accent-color);
+  background-color: transparent;
 
   font-family: inherit;
   font-weight: 700;
@@ -226,6 +226,10 @@ a {
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.primary.button:hover,
+.primary.button:focus {
+  background-color: var(--accent-color);
 }
 /* = = == = = = == = = =Список преимуществ = = = = == = == */
 .features {
