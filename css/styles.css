@@ -160,6 +160,7 @@ a {
 
   padding-top: 32px;
   padding-bottom: 32px;
+  /* margin-left: 10px; */
   display: flex;
   align-items: center;
 }
@@ -190,6 +191,7 @@ a {
 
   text-align: center;
   padding: 200px 0;
+  margin: 0 auto;
 }
 .greet-box.container {
   color: var(--btn-prime-color);
@@ -233,17 +235,16 @@ a {
 }
 /* = = == = = = == = = =Список преимуществ = = = = == = == */
 .features {
-  max-width: 1600px;
   padding-bottom: 47px;
   padding-top: 95px;
 }
 .features-item {
-  text-transform: uppercase;
   width: 270px;
 }
 .features-title {
   color: var(--title-text-color);
 
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -265,12 +266,11 @@ a {
 
   background-color: #f5f4fa;
 }
-.icon-decoration {
+.features-icon-decoration {
   margin: 0;
 }
 /* чем заняты */
 .work {
-  max-width: 1600px;
   padding-bottom: 94px;
   padding-top: 47px;
 }
@@ -296,7 +296,6 @@ a {
 
 /* = == == = = =Команда молодости нашей = = == = = == = = =*/
 .team-list {
-  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -315,14 +314,10 @@ a {
 }
 .profile .profile-description {
   padding-top: 30px;
-  padding-bottom: 30px;
+
   text-align: center;
 }
-/* .team {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
+
 .team-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -353,7 +348,8 @@ a {
 .social-network {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  margin-top: 16px;
 }
 .icon-link {
   display: inline-flex;
@@ -386,7 +382,6 @@ a {
 /* --- -- --  -- -- - - -- - -- - - - -- - - -- - - - - */
 /*-- - -- -- - -- - наши клиенты- -- -- -- - -- - -- */
 .clients {
-  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -455,7 +450,6 @@ a {
 } */
 
 .footer-section {
-  max-width: 1600px;
   background-color: var(--head-foot-bgcolor);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -551,6 +545,7 @@ a {
 /*- -- - -- - --  контент main - - ---- -- -- - -- - -- -- -- */
 .prime {
   /* background-color: #e5e5e5; */
+
   padding: 94px 0;
 }
 
