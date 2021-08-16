@@ -58,7 +58,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
 
-  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -184,6 +183,7 @@ a {
 /* = == = = == == = == = = = == = = == = = == = = == = = == = = == = = */
 /* == = == =  = == = = == = = == Приветствие  == == == = == == = = */
 .greeting {
+  width: 1600px;
   background-color: var(--head-foot-bgcolor);
   background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/overlay-background.jpg');
@@ -233,6 +233,7 @@ a {
 }
 /* = = == = = = == = = =Список преимуществ = = = = == = == */
 .features {
+  max-width: 1600px;
   padding-bottom: 47px;
   padding-top: 95px;
 }
@@ -269,6 +270,7 @@ a {
 }
 /* чем заняты */
 .work {
+  max-width: 1600px;
   padding-bottom: 94px;
   padding-top: 47px;
 }
@@ -294,6 +296,7 @@ a {
 
 /* = == == = = =Команда молодости нашей = = == = = == = = =*/
 .team-list {
+  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -383,6 +386,7 @@ a {
 /* --- -- --  -- -- - - -- - -- - - - -- - - -- - - - - */
 /*-- - -- -- - -- - наши клиенты- -- -- -- - -- - -- */
 .clients {
+  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -451,6 +455,7 @@ a {
 } */
 
 .footer-section {
+  max-width: 1600px;
   background-color: var(--head-foot-bgcolor);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -545,7 +550,7 @@ a {
 /* - -- - - -- - -- -- - -Страница портфолио - - -- -- -- - -*/
 /*- -- - -- - --  контент main - - ---- -- -- - -- - -- -- -- */
 .prime {
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
   padding: 94px 0;
 }
 
