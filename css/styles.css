@@ -316,7 +316,7 @@ a {
 }
 .profile .profile-description {
   padding-top: 30px;
-
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -350,7 +350,6 @@ a {
 .social-network {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
   margin-top: 16px;
 }
 .icon-link {
