@@ -235,8 +235,10 @@ a {
 }
 /* = = == = = = == = = =Список преимуществ = = = = == = == */
 .features {
+  max-width: 1600px;
   padding-bottom: 47px;
   padding-top: 95px;
+  margin: 0 auto;
 }
 .features-item {
   width: 270px;
