@@ -229,7 +229,7 @@ a {
 }
 .primary.button:hover,
 .primary.button:focus {
-  background-color: var(--accent-color);
+  background-color: #188ce8;
 }
 /* = = == = = = == = = =Список преимуществ = = = = == = == */
 .features {
